@@ -65,7 +65,7 @@ export function ChatBot() {
       <button
         aria-label="Open chat assistant"
         onClick={() => setOpen((o) => !o)}
-        className="fixed bottom-24 right-5 z-[190] flex h-14 w-14 items-center justify-center rounded-full bg-accent text-accent-foreground shadow-lg shadow-black/40 transition-transform hover:scale-110 active:scale-95 sm:bottom-28 sm:right-6"
+        className="fixed bottom-24 right-5 z-[190] flex h-14 w-14 items-center justify-center rounded-full bg-accent text-accent-foreground shadow-lg shadow-black/40 transition-transform hover:scale-110 active:scale-95 sm:bottom-28 sm:right-6 hidden"
       >
         {open ? <X className="h-6 w-6" /> : <MessageSquare className="h-6 w-6" />}
       </button>
